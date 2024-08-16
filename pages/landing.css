@@ -39,7 +39,7 @@
 /* General body font */
 body {
     font-family: 'Chakra Petch', sans-serif; /* Apply Chakra Petch font for body text */
-    background-color: rgba(0, 0, 0, 0.966);
+    background-color: black;
     color: whitesmoke;
     text-shadow: 1px 1px 10px rgba(62, 169, 62, 0.6);  
 }
@@ -73,7 +73,49 @@ h2 {
 
 
 /* Other heading styles */
-h2, h3 {
+h2 {
     font-family: 'Chakra Petch', sans-serif; /* Use Chakra Petch for other headings */
+    font-size: 150px;
+    margin: 15px;
+}
+
+h3 {
+    font-family: 'Chakra Petch', sans-serif; /* Use Chakra Petch for other headings */
+    font-size: 60px;
+    margin: 15px;
+}
+
+p {
     font-size: 50px;
+    line-height: 1.5;
+    margin: 15px;
+}
+
+a {
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 15px;
+}
+
+ul {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 15px;
+}
+li {
+    font-size: 50px;
+    line-height: 1.5;
+    margin: 15px;
+}
+
+.spacing{
+    padding: 50px;
+    margin: 50px;
+    color: black;
+}
+
+.sh-spacing{
+    padding: 25px;
+    margin: 25px;
+    color: black;
 }
