@@ -36,6 +36,21 @@
     }
 }
 
+@keyframes pulse {
+    0% {
+        text-shadow: 1px 1px 20px rgb(255, 60, 0);
+    }
+    
+    50% {
+        text-shadow: 1px 1px 20px rgb(90, 0, 0);
+    }
+    
+    100% {
+        text-shadow: 1px 1px 20px rgb(255, 60, 0);
+    }
+    
+}
+
 /* General body font */
 body {
     font-family: 'Chakra Petch', sans-serif; /* Apply Chakra Petch font for body text */
@@ -56,18 +71,18 @@ body {
     font-size: 350px;
     font-weight: 500;
     margin: 120px;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-bottom: 10px;
     transition: transform 0.3s ease, color 0.3s ease;
-    text-shadow: 1px 1px 20px lime;  
+    text-shadow: 1px 1px 50px lime;  
     color: #ff0202;
 }
 
 .name {
-    animation: rgbEffect 5s infinite; 
+    animation: pulse 6s infinite; 
 }
 
-h2 {
+h2, h3 {
     animation: rgbEffect 5s infinite; 
 }
 
@@ -76,36 +91,36 @@ h2 {
 h2 {
     font-family: 'Chakra Petch', sans-serif; /* Use Chakra Petch for other headings */
     font-size: 150px;
-    margin: 15px;
+    margin: 25px;
 }
 
 h3 {
     font-family: 'Chakra Petch', sans-serif; /* Use Chakra Petch for other headings */
     font-size: 60px;
-    margin: 15px;
+    margin: 25px;
 }
 
 p {
     font-size: 50px;
     line-height: 1.5;
-    margin: 15px;
+    margin: 25px;
 }
 
 a {
     font-size: 40px;
     line-height: 1.5;
-    margin: 15px;
+    margin: 25px;
 }
 
 ul {
     font-size: 30px;
     line-height: 1.5;
-    margin: 15px;
+    margin: 25px;
 }
 li {
     font-size: 50px;
     line-height: 1.5;
-    margin: 15px;
+    margin: 25px;
 }
 
 .spacing{
