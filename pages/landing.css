@@ -2,37 +2,37 @@
 
 @keyframes rgbEffect {
     0% {
-        text-shadow: 1px 1px 20px lime;
+        text-shadow: 2px 2px 20px lime;
     }
     10% {
-        text-shadow: 1px 1px 20px yellow;
+        text-shadow: 2px 2px 20px yellow;
     }
     20% {
-        text-shadow: 1px 1px 20px orange;
+        text-shadow: 2px 2px 20px orange;
     }
     30% {
-        text-shadow: 1px 1px 20px rgb(255, 0, 221);
+        text-shadow: 2px 2px 20px rgb(255, 0, 221);
     }
     40% {
-        text-shadow: 1px 1px 20px purple;
+        text-shadow: 2px 2px 20px purple;
     }
     50% {
-        text-shadow: 1px 1px 20px blue;
+        text-shadow: 2px 2px 20px blue;
     }
     60% {
-        text-shadow: 1px 1px 20px purple;
+        text-shadow: 2px 2px 20px purple;
     }
     70% {
-        text-shadow: 1px 1px 20px rgb(255, 0, 242);
+        text-shadow: 2px 2px 20px rgb(255, 0, 242);
     }
     80% {
-        text-shadow: 1px 1px 20px orange;
+        text-shadow: 2px 2px 20px orange;
     }
     90% {
-        text-shadow: 1px 1px 20px yellow;
+        text-shadow: 2px 2px 20px yellow;
     }
     100% {
-        text-shadow: 1px 1px 20px lime;
+        text-shadow: 2px 2px 20px lime;
     }
 }
 
@@ -89,14 +89,6 @@ body {
     color: #ff0202;
 }
 
-.name {
-    animation: pulse 6s infinite; 
-}
-
-h2, h3 {
-    animation: rgbEffect 5s infinite; 
-}
-
 hq {
     font-size: 80px;
 }
@@ -123,8 +115,8 @@ p {
 
 a {
     text-decoration: none;
-    color: whitesmoke;
-    text-shadow: 1px 1px 20px rgb(226, 246, 255);
+    color: rgb(25, 195, 238);
+    text-shadow: 1px 1px 20px rgb(20, 255, 145);
     font-size: 40px;
     line-height: 1.5;
     margin: 25px;
@@ -162,20 +154,32 @@ h1, h2, h3, p, a, ul {
 
 @media (max-width: 768px) {
     .name {
-        font-size: 60px;
-        
+        font-size: 80px;
+        margin: auto;
         margin-top: 300px;
     }
     hq{
-        font-size: 20px;
+        font-size: 25px;
     }
     h2 {
         font-size: 50px;
     }
     h3 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 30px;
+    }
+    a, ul, li {
+        margin-left: 0px;
         font-size: 20px;
     }
-    p, a, ul, li {
-        font-size: 20px;
-    }
+}
+
+.name {
+    animation: pulse 3s infinite; 
+}
+
+hq, h2, h3 {
+    animation: rgbEffect 3s infinite; 
 }
